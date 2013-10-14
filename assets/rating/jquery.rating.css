@@ -1,0 +1,59 @@
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+div.rating-cancel,div.star-rating{float:left;width:17px;height:15px;text-indent:-999em;cursor:pointer;display:block;background:transparent;overflow:hidden}
+div.rating-cancel,div.rating-cancel a{background:url(delete.gif) no-repeat 0 -16px}
+div.star-rating,div.star-rating a{background:url(star.gif) no-repeat 0 0px}
+div.rating-cancel a,div.star-rating a{display:block;width:16px;height:100%;background-position:0 0px;border:0}
+div.star-rating-on a{background-position:0 -16px!important}
+div.star-rating-hover a{background-position:0 -32px}
+/* Read Only CSS */
+div.star-rating-readonly a{cursor:default !important}
+/* Partial Star CSS */
+div.star-rating{background:transparent!important;overflow:hidden!important}
+star-rating-control{position:relative !important; float:right}
+/* END jQuery.Rating Plugin CSS */
+span[id^="Review_"]{
+    float: right !important
+}
+span[class^="legend"]{
+    width:86px;
+    height:17px;
+    display:block;
+    position:relative;
+    margin-left:5%;
+    float:left;
+    border-radius:30%;
+    background:#FFF0CB url(5.png) no-repeat;
+}
+span i {
+    display:block;
+    position:relative;
+    width:inherit;
+    text-align:center;
+    top:10px
+}
+span.legend-1 {width:15px}
+span.legend-2 {width:33px}
+span.legend-3 {width:50px}
+span.legend-4 {width:66px}
+span.legend-view {
+    top:15px;float:left;
+    border-radius:0;
+    background-color:transparent
+}
+
+span.legend-view:before {
+    content:'Average: ';
+    font-size:13px;
+    position:absolute;
+    top:-10px;right:88px
+}
+p.note {
+    display:block;
+    width:50%;
+    height:80px;
+    margin:0 auto
+}
+* label {
+    /*float:left;*/
+    width:9%;
+}
